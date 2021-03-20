@@ -38,7 +38,7 @@ struct No
 };
 
 /**Codificador**/
-std::vector<No*> Encode(std::string s)
+std::vector<No*> Codificador(std::string s)
 {
     std::vector<No*> answer;
 
@@ -112,7 +112,7 @@ int main(int argc, char const *argv[])
         fin >> input;
         fin.close();
 
-        std::vector<No*> encoded = Encode(input);
+        std::vector<No*> encoded = Codificador(input);
 
         std::fstream fout;
         fout.open(argv[2], std::ios::out);
