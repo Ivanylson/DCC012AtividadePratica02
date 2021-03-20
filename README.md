@@ -4,6 +4,6 @@
 ##Para rodar:
 - Codificador:
 clear && g++ -std=c++11 *.cpp -o main && ./main input.txt output.txt
-- decodificador:
+- Decodificador:
 clear && g++ -std=c++11 *.cpp -o main && ./main input.txt output.txt
 
