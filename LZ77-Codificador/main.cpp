@@ -120,7 +120,9 @@ int main(int argc, char const *argv[])
         for(auto & No : encoded)
         {
             fout << No->deslocamento << " " << No->comprimento << " " << No->proximo << " ";
+	      cout << No->deslocamento << " " << No->comprimento << " " << No->proximo << " ";
         }
+	cout << endl;
 	fout <<endl;
         fout.close();
     }

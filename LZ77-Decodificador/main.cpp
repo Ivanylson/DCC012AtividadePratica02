@@ -109,7 +109,9 @@ int main(int argc, char const *argv[])
         std::fstream fout;
         fout.open(argv[2], std::ios::out);
         fout << decoded;
+ 	cout << decoded;
         fout.close();
+	cout << endl;
     }
 
     return 0;
